@@ -1,0 +1,10 @@
+.App {
+  background-image: url('./assets/img10.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh; /* Use min-height instead of height */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

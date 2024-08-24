@@ -1,0 +1,59 @@
+/* ShowBook.css */
+
+.show-book-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.right-div {
+  flex: 1;
+  padding: 20px;
+  margin-right: -40px;
+}
+
+.right-div h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.right-div p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.right-div img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.left-div {
+  flex: 1;
+  padding: 20px;
+  background-image: url('../assets/note.webp'); 
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:80px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height:700px
+}
+
+.left-div p {
+  margin-bottom: 10px;
+  color: #1b1a1a;
+  padding: 10px;
+  border-radius: 4px;
+}

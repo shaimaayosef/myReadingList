@@ -1,0 +1,22 @@
+.book-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px; 
+  padding: 16px;
+}
+
+.book-list h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  color: #eae6ea;
+  background-color:#6a0dad;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  width:200px;
+}
