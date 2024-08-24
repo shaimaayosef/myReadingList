@@ -6,22 +6,27 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import AddBook from './pages/AddBook';
 import EditBook from './pages/EditBook';
-
+import AuthProvider from './services/AuthContext';
+import PrivateRoute from './services/PrivateRoute';
+import ShowBook from './pages/ShowBook';
 
 
 const App = () => {
   return (
     <div  className="App">
+      <AuthProvider>
         <BrowserRouter>
           <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/signin" element={<SignIn />} />
             <Route path="/signup" element={<SignUp />} />
-            <Route path="/addbook" element={<AddBook/>}/>
-            <Route path="/editbook/:id" element={<EditBook/> }/>
+            <Route path="/addbook" element={<PrivateRoute><AddBook/></PrivateRoute>} />
+            <Route path="/editbook/:id" element={<PrivateRoute><EditBook /></PrivateRoute>} />
+            <Route path="/showbook/:id" element={<ShowBook />} />
           </Routes>
         </BrowserRouter>
+      </AuthProvider>
     </div>
   )
 }

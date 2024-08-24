@@ -1,4 +1,40 @@
 {
   "users": [],
-  "books": []
+  "books": [
+    {
+      "id": "1",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://vaundamicheauxnelson.com/wp-content/uploads/2021/12/Mockingbird-Cover-216x300.jpg",
+      "year": 1960,
+      "description": "A novel about the serious issues of rape and racial inequality.",
+      "isRead": false,
+      "notes": "add some notes",
+      "userId": "e45d"
+      
+    },
+    {
+      "id": "2",
+      "title": "faces",
+      "author": "George Orwell",
+      "image": "https://m.media-amazon.com/images/I/41L-2XsUp7L.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "year": 1949,
+      "description": "A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.",
+      "isRead": false,
+      "notes": "add some notes",
+      "userId": "e45d"
+      
+    },
+    {
+      "id": "3",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://m.media-amazon.com/images/I/31iernqLeiL._AC_.jpg",
+      "year": 1925,
+      "description": "A novel about the American dream and the roaring twenties.",
+      "isRead": false,
+      "notes": "add some notes",
+      "userId": "91b6"
+    }
+  ]
 }
