@@ -14,7 +14,7 @@
 .add-book-link a {
   display: inline-flex;
   align-items: center;
-  background-color: #6a0dad;
+  background-color: #5f5eb8;
   color: white;
   text-decoration: none;
   padding: 10px 20px;
@@ -23,7 +23,7 @@
 }
 
 .add-book-link a:hover {
-  background-color: #5a0c9d;
+  background-color: #8f3181;
 }
 
 .add-book-link a svg {
