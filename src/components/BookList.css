@@ -16,12 +16,12 @@
   font-weight: 600;
   margin-bottom: 16px;
   text-transform: uppercase;
-  color: #fff3f3;
-  background-color:#706fc0;
+  color: #2a1263;
+  background-color:#706fc07d;
   padding: 10px;
   border-radius: 5px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s;
-  width:400px;
+  width:800px;
 }
