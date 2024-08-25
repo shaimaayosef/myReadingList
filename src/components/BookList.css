@@ -1,9 +1,14 @@
 .book-list-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   flex-wrap: wrap;
   gap: 16px; 
   padding: 16px;
+}
+
+.book-list {
+  justify-content: center;
 }
 
 .book-list h2{
@@ -11,12 +16,12 @@
   font-weight: 600;
   margin-bottom: 16px;
   text-transform: uppercase;
-  color: #eae6ea;
-  background-color:#5f5eb8;
+  color: #fff3f3;
+  background-color:#706fc0;
   padding: 10px;
   border-radius: 5px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s;
-  width:200px;
+  width:400px;
 }

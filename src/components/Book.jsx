@@ -49,26 +49,28 @@ const Book = ({ book, onUpdateBook, onDelete }) => {
         <Link to={`editbook/${book.id}`}>
           <FaEdit />
         </Link>
-        <button className="delete-button" onClick={handleDelete}>
-          <FaTrash />
-        </button>
+        {onDelete ? (
+          <button className="delete-button" onClick={handleDelete}>
+            <FaTrash />
+          </button>
+        ) : ""}
       </div>
-      <label className='custom-checkbox'>
+      {onUpdateBook?(<label className='custom-checkbox'>
       <input
         type="checkbox"
         checked={book.isRead}
         onChange={handleCheckboxChange}
       />
       <span className="checkmark"></span>
-      </label>
+      </label>):""}
     </div>
   );
 };
 
 Book.propTypes = {
   book: PropTypes.object.isRequired,
-  onUpdateBook: PropTypes.func.isRequired,
-  onDelete: PropTypes.func.isRequired,
+  onUpdateBook: PropTypes.func,
+  onDelete: PropTypes.func,
 };
 
 export default Book;

@@ -123,15 +123,15 @@ input[type="checkbox"] {
   position: absolute;
   top: 0;
   left: 0;
-  height: 24px;
-  width: 24px;
-  background-color: #eee;
+  width:33px;
+  height:30px;
+  background-color: #706fc0;
   border-radius: 4px;
   transition: background-color 0.3s;
 }
 
 .custom-checkbox input:checked + .checkmark {
-  background-color: #2196F3;
+  background-color: #706fc0;
   border-radius: 4px;
   width:33px;
   height:30px;

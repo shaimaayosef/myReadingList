@@ -7,7 +7,7 @@
   padding: 20px;
 }
 
-form {
+.form-div {
   width: 100%;
   max-width: 500px;
   background-color: #925c86;
@@ -16,19 +16,19 @@ form {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-form div {
+.form-div div {
   margin-bottom: 15px;
 }
 
-form label {
+.form-div label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
-form input[type="text"],
-form input[type="number"],
-form textarea {
+.form-div input[type="text"],
+.form-div input[type="number"],
+.form-div textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #a2418a;
@@ -36,7 +36,7 @@ form textarea {
   box-sizing: border-box;
 }
 
-form button {
+.form-div button {
   display: inline-block;
   background-color: #036859;
   width:500px;
@@ -49,6 +49,6 @@ form button {
   font-weight:bold;
 }
 
-form button:hover {
+.form-div button:hover {
   background-color: #5a0c9d;
 }

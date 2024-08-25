@@ -79,7 +79,7 @@ const EditBook = () => {
   return (
   <div  className="form-container">
 
-    <form onSubmit={handleSubmit}>
+    <form className='form-div' onSubmit={handleSubmit}>
     <div>
       <label>Title:</label>
       <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} required />
