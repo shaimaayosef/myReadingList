@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { FaEdit, FaTrash } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 import './ShowBook.css';
 
@@ -21,9 +23,26 @@ const ShowBook = () => {
   if (!book) {
     return <div>Loading...</div>;
   }
-
+  
+ //handelDelete function
+  const handleDelete = async () => {
+    try {
+      await axios.delete(`http://localhost:5000/books/${book.id}`);
+      window.location.href = "/";
+    } catch (error) {
+      console.error('Error deleting book:', error);
+    }
+  };
   return (
     <div className="show-book-container">
+       <div className="actions">
+        <Link to={`/editbook/${book.id}`}>
+          <FaEdit />
+        </Link>
+        <button className="delete-button" onClick={handleDelete}>
+          <FaTrash />
+        </button>
+      </div>
       <div className='right-div'>
         <h2>{book.title}</h2>
         <p>{book.author}</p>

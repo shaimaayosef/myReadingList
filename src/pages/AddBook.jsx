@@ -82,7 +82,7 @@ const AddBook = () => {
           <label>Notes:</label>
           <textarea value={notes} onChange={(e) => setNotes(e.target.value)} />
         </div>
-        <button type="submit">Add Book</button>
+        <button type="submit">Add</button>
       </form>
     </div>
   );

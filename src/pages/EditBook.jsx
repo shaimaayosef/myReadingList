@@ -104,7 +104,7 @@ const EditBook = () => {
       <label>Notes:</label>
       <textarea value={notes} onChange={(e) => setNotes(e.target.value)} />
     </div>
-    <button type="submit">Edit Book</button>
+    <button type="submit">Edit</button>
   </form>
   </div>
   );

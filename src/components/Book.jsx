@@ -53,11 +53,14 @@ const Book = ({ book, onUpdateBook, onDelete }) => {
           <FaTrash />
         </button>
       </div>
+      <label className='custom-checkbox'>
       <input
         type="checkbox"
         checked={book.isRead}
         onChange={handleCheckboxChange}
       />
+      <span className="checkmark"></span>
+      </label>
     </div>
   );
 };

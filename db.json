@@ -14,7 +14,7 @@
       "image": "https://printrado-media.s3.eu-central-1.amazonaws.com/wp-content/uploads/2021/02/12233421/Think-and-Grow-Rich-392x576.jpg.webp",
       "year": 2024,
       "description": "Think and Grow Rich\n\n",
-      "isRead": false,
+      "isRead": true,
       "notes": "Think and Grow Rich\n\n",
       "userId": "75cc",
       "id": "fdc4"
@@ -25,7 +25,7 @@
       "image": "https://printrado-media.s3.eu-central-1.amazonaws.com/wp-content/uploads/2021/02/12233413/Atomic-Habits-392x592.jpg.webp",
       "year": 2024,
       "description": "Atomic Habits",
-      "isRead": true,
+      "isRead": false,
       "notes": "Atomic Habits",
       "userId": "75cc",
       "id": "1de0"

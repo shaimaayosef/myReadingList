@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import './NavBar.css';
 
 const NavBar = () => {
-  const { signOut } = useContext(AuthContext);
+  const { signOut, user } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const handleSignOut = () => {
@@ -14,22 +14,25 @@ const NavBar = () => {
   };
   return (
     <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/signin">Sign In</Link>
-        </li>
-        <li>
-          <Link to="/signup">Sign Up</Link>
-        </li>
-        <li>
-          <Link to="/signin" onClick={handleSignOut}>Sign out</Link>
-        </li>
-      </ul>
+      <div className="right">
+        <Link to="/">Home</Link>
+      </div>
+      <div className="left">
+        {!user && (
+          <>
+            <Link to="/signin">Sign In</Link>
+            <Link to="/signup">Sign Up</Link>
+          </>
+        )}
+        {user && (
+          <>
+            <span className="welcome">Welcome, {user.name}</span>
+            <Link to="/signin" onClick={handleSignOut}>Sign out</Link>
+          </>
+        )}
+      </div>
     </nav>
-  )
+    )
 }
 
 export default NavBar

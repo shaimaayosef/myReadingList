@@ -1,27 +1,16 @@
-
-
 nav {
   background-color: #5f5eb8; 
   padding: 10px 20px;
   border-radius: 5px; 
-  height:50px;
+  height: 50px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
 }
 
-nav ul {
-  list-style-type: none; 
-  margin: 0; 
-  padding: 0; 
-  display: flex; 
-  justify-content: space-around;
-}
-
-nav li {
-  margin: 0 10px; 
+nav .left, nav .right {
+  display: flex;
+  align-items: center;
 }
 
 nav a {
@@ -35,5 +24,11 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #555;
+  background-color: #8a2b61;
+}
+
+nav .welcome {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 70px;
 }

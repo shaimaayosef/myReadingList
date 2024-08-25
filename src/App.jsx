@@ -9,6 +9,7 @@ import EditBook from './pages/EditBook';
 import AuthProvider from './services/AuthContext';
 import PrivateRoute from './services/PrivateRoute';
 import ShowBook from './pages/ShowBook';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/editbook/:id" element={<PrivateRoute><EditBook /></PrivateRoute>} />
             <Route path="/showbook/:id" element={<ShowBook />} />
           </Routes>
+          <Footer/>
         </BrowserRouter>
       </AuthProvider>
     </div>

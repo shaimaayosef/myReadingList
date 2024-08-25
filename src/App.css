@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  min-height: 100vh; /* Use min-height instead of height */
+  min-height: 120vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
