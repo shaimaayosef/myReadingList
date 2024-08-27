@@ -7,28 +7,5 @@
       "password": "$2a$10$WnV4jjazwNhzyACI.FMh1O8uOnjPfHytfz4Ods8Bv2x8v0TgDdnuW"
     }
   ],
-  "books": [
-    {
-      "title": "think grow rich think",
-      "author": "nabeleon hill",
-      "image": "https://printrado-media.s3.eu-central-1.amazonaws.com/wp-content/uploads/2021/02/12233421/Think-and-Grow-Rich-392x576.jpg.webp",
-      "year": 2024,
-      "description": "Think and Grow Rich\n\n",
-      "isRead": false,
-      "notes": "Think and Grow Rich\n\n",
-      "userId": "75cc",
-      "id": "fdc4"
-    },
-    {
-      "title": "Atomic Habits Habits",
-      "author": "james clear",
-      "image": "https://printrado-media.s3.eu-central-1.amazonaws.com/wp-content/uploads/2021/02/12233413/Atomic-Habits-392x592.jpg.webp",
-      "year": 2024,
-      "description": "Atomic Habits",
-      "isRead": false,
-      "notes": "Atomic Habits",
-      "userId": "75cc",
-      "id": "1de0"
-    }
-  ]
+  "books": []
 }

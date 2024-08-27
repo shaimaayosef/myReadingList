@@ -4,7 +4,10 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  min-height: 120vh;
+  min-height: 180vh;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding:10px;
+  display:flex;
+  flex-direction:column;
 }
