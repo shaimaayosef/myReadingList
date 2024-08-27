@@ -1,16 +1,15 @@
 .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: #706fc0; 
-  padding: 10px 20px;
-  border-radius: 5px; 
-  height: 50px;
+  color: white;
+  padding: 10px;
+  z-index: 1000; 
   display: flex;
   justify-content: center;
   align-items: center;
-  position:fixed;
-  bottom: 0;
-  width: 100%;
 }
-
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;

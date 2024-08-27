@@ -45,6 +45,17 @@ const Book = ({ book, onUpdateBook, onDelete }) => {
       </div>
       <h3 className="book-title">{book.title}</h3>
       <p className="book-author">{book.author}</p>
+      {onUpdateBook?(
+      <label className='custom-checkbox'>
+      <input
+        type="checkbox"
+        checked={book.isRead}
+        onChange={handleCheckboxChange}
+      />
+      <span className="checkmark"></span>
+      <span className="mark-as-read">Mark as Read</span>
+      </label>
+      ) : ""}
       <div className="book-actions">
         <Link to={`editbook/${book.id}`}>
           <FaEdit />
@@ -55,14 +66,7 @@ const Book = ({ book, onUpdateBook, onDelete }) => {
           </button>
         ) : ""}
       </div>
-      {onUpdateBook?(<label className='custom-checkbox'>
-      <input
-        type="checkbox"
-        checked={book.isRead}
-        onChange={handleCheckboxChange}
-      />
-      <span className="checkmark"></span>
-      </label>):""}
+     
     </div>
   );
 };
