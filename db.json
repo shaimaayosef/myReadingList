@@ -7,5 +7,28 @@
       "password": "$2a$10$WnV4jjazwNhzyACI.FMh1O8uOnjPfHytfz4Ods8Bv2x8v0TgDdnuW"
     }
   ],
-  "books": []
+  "books": [
+    {
+      "id": "b261",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "image": "https://printrado-media.s3.eu-central-1.amazonaws.com/wp-content/uploads/2021/02/12233413/Atomic-Habits-392x592.jpg.webp",
+      "year": 2018,
+      "description": "Atomic Habits\" is a practical guide to building good habits and breaking bad ones. James Clear provides insights into how small changes can lead to remarkable results over time. The book covers strategies for habit formation and emphasizes the importance of consistent, incremental progress.",
+      "isRead": false,
+      "notes": "Atomic Habits\" is a practical guide to building good habits and breaking bad ones. James Clear provides insights into how small changes can lead to remarkable results over time. The book covers strategies for habit formation and emphasizes the importance of consistent, incremental progress.",
+      "userId": "75cc"
+    },
+    {
+      "id": "e6f4",
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "image": "https://books.google.com.eg/books/publisher/content?id=rMGoDwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U09yL3ZskBKX-6RkSe1j0dCAfQAjQ&w=1280",
+      "year": 2018,
+      "description": "Becoming\" is the memoir of former First Lady Michelle Obama, in which she chronicles her life from her childhood in Chicago to her years as an executive, and her time spent at the White House. The book is an intimate, powerful, and inspiring story about a woman who has defied expectations and inspired a generation.",
+      "isRead": true,
+      "notes": "Becoming\" is the memoir of former First Lady Michelle Obama, in which she chronicles her life from her childhood in Chicago to her years as an executive, and her time spent at the White House. The book is an intimate, powerful, and inspiring story about a woman who has defied expectations and inspired a generation.",
+      "userId": "75cc"
+    }
+  ]
 }
