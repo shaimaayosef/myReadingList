@@ -26,7 +26,7 @@
 
 .right-div p {
   width:350px;
-
+  font-size:20px;
   color: #555;
 }
 
@@ -40,7 +40,7 @@
 .left-div {
   flex: 1;
   padding: 20px;
-  background-image: url('../assets/note.webp'); 
+  background-image: url('../assets/note2.webp'); 
   background-size: cover;
   background-position: center;
   border-radius: 8px;
@@ -50,10 +50,12 @@
   justify-content: center;
   margin-top:80px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height:700px
+  height:700px;
 }
 
 .left-div p {
+  font-size:20px;
+  width:400px;
   margin-bottom: 10px;
   color: #1b1a1a;
   padding: 10px;
