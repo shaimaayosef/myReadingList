@@ -11,7 +11,9 @@ import PrivateRoute from './services/PrivateRoute';
 import ShowBook from './pages/ShowBook';
 import Footer from './components/Footer';
 
+
 const App = () => {
+  
   return (
     <div className="App">
       <AuthProvider>

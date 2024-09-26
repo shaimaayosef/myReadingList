@@ -7,7 +7,7 @@ const PrivateRoute = ({ children }) => {
   
   const { user } = useContext(AuthContext);
 
-  return user ? children : <Navigate to="/" />;
+  return user && user.name ? children : <Navigate to="/" />;
 };
 
 PrivateRoute.propTypes = {

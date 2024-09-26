@@ -6,6 +6,8 @@ import PrivateRoute from '../services/PrivateRoute';
 import './Home.css';
 import Book from '../components/Book';
 
+
+
 const Home = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
@@ -31,6 +33,7 @@ const Home = () => {
   };
 
   return (
+  <PrivateRoute>
     <div className="container">
       <div className="add-book-link">
         <Link to="/addbook">
@@ -49,7 +52,6 @@ const Home = () => {
           <FaSearch />
         </button>
       </form>
-      <PrivateRoute>
         {searchResults.length > 0 ? (
           <div className="search-results">
             {searchResults.map((book, index) => (
@@ -60,8 +62,8 @@ const Home = () => {
         ) : (
           <BookList />
         )}
-      </PrivateRoute>
     </div>
+    </PrivateRoute>
   );
 };
 
