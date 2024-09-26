@@ -22,22 +22,20 @@ const NavBar = () => {
       </div>
       
       <div className="left">
-      
-        {!user && (
+      {user && user.name ? (
+          <>
+            <span className="welcome">Welcome, {user.name}</span>
+            <Link to="/signin" onClick={handleSignOut}>Sign out</Link>
+          </>
+        ) : (
           <>
             <Link to="/signin">Sign In</Link>
             <Link to="/signup">Sign Up</Link>
           </>
         )}
-        {user && (
-          <>
-            <span className="welcome">Welcome, {user.name}</span>
-            <Link to="/signin" onClick={handleSignOut}>Sign out</Link>
-          </>
-        )}
       </div>
     </nav>
-    )
+  )
 }
 
 export default NavBar
